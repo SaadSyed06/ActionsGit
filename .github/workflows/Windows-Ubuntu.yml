@@ -17,4 +17,4 @@ jobs:
       - name: Get List of Firewall Inbound Rules
         shell: pwsh
         run: |
-          Get-NetFirewallRules -Direction Inbound
+          Get-NetFirewallRule -Direction Inbound
